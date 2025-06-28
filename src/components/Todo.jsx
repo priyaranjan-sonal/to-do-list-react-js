@@ -15,7 +15,7 @@ const Todo = () => {
     const inputText = inputref.current.value.trim();
 
     if (inputText ==="") {
-      return null;
+      alert("Title cannot be empty");
     }
 
     const newTodo = {
